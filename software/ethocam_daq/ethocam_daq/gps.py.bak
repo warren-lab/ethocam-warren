@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     gps = GPS(config)
     data = gps.read()
-    for k,v in list(data.items()):
+    for k,v in data.items():
         print(f'{k}: {v}')
 
 
